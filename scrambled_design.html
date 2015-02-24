@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<!-- This is a comment section. This can be seen by other people but not the computer. This is a good method of note taking and feedback -->
+<html>
+  <head>
+<!-- below line is a link to the css style sheet -->
+    <link rel="stylesheet" type="text/css" href="scrambled_design.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto Condensed" />
+    <title>SCRAMBLED DESIGN</title>
+  </head>
+  <body>
+    <h1>SCRAMBLED DESIGN</h1>
+    <div class="odd_lesson">
+      <div>
+        <p>
+          What is Scrambled Design? In <span class="italics">my mind</span>, when learning anything new in our lives, it sometimes feels like our minds are scrambled at first, a sense of new information can be overwhelming. As time goes on, what we are learning eventually turns into an enjoyable experience. Scrambling the eggs in the beginning eventually becomes a delicious meal.
+        </p>
+        <p>
+          In a nut shell, this is my journey from going zero to hero, so to speak in the world of Web Development. I have a lot of interesting ideas of what I want to design and how to interact with the user.
+        </p>
+      </div>  
+      <span class="bold">
+        <span class="italics">LET'S BEGIN!</span>
+      </span>
+    </div>
+<!-- I'm separating each section by <div>'s to keep things organized on the web-page. -->
+    <!-- Beginning of Section One -->
+    <div class="even_lesson">
+      <h2>Lesson One: The Basics of the Web and HTML</h2>
+      <h3>What is the World Wide Web? (quick facts)</h3>
+      <h4>HMTL - Hyper Text Markup Language</h4>
+      <ul>
+        <li>HTML was invented in the 1990's, however, it was used as a form of communication between scientists years before it became public to the world.</li>
+        <li>It is the main type of document for the web.</li>
+        <li>When a user goes to a website like facebook.com, he or she is sending a HTTP request to the Internet, then to Facebook's servers. Facebook then sends the request back to the Internet, then the HTML file is interpreted to that specific browser for the user to see.</li>
+      </ul>
+      <div>
+        <p>
+          <img src="http://medialab.di.unipi.it/web/doc/SEHTML2D/figs/02fig01.gif" alt="How information travels on the web">
+        </p> 
+      </div>
+      <h4>Different Types of HTML Markup</h4>
+      <p>
+        There are several types of markup within HTML. Essentially, each type of markup is referred to as a type of "tag" (tags look like angled brackets using the greater than and less than symbols) and those tags combined with text (content) form an "element".
+      </p>
+      <p>
+        Elements can be in-line or in block form. Each element will have an opening and closing tag. However, if it does not have a closing tag, it is referred to as a "void" tag.
+      </p>
+      <h4>&lt;tag&gt;Types of Elements&lt;/tag&gt;</h4>
+      <ul>
+        <li><b>In-line</b>: An element that does not force new lines before or after its placement, i.e., &lt;em&gt;, &lt;a&gt; (anchor tag), &lt;br&gt; (line breaking tag. &lt; div&gt; can also be an in-line tag because of the span element.</li>
+        <li><b>Block</b>: An element has lines that appear before and after the element, i.e, &lt;p&gt;, &lt;h1&gt;, &lt;div&gt;, essentially, it is enclosed in a block.</li>
+      </ul>
+    </div>
+    <!-- Beginning of Section Two -->
+    <div class="odd_lesson">
+      <h2>Lesson Two: Structure and Web Browser Interpretation</h2>
+      <h3>Analogy of Website Structure and Functions</h3>
+      <div>
+        <h4>A House Structure and its Functions</h4>
+        <h4>HTML Files - Structure of the House</h4>
+        <ul>
+          <li>Foundation and the walls</li>
+          <li>Divided into rooms</li>
+          <li>Family Room</li>
+          <li>Bathroom</li>
+          <li>Etc, etc.</li>  
+        </ul>
+        <h4>CSS Files - The style of the House</h4>  
+        <ul>
+          <li>Color of the carpet</li>
+          <li>Color of the walls</li>
+          <li>Decorations</li>
+        </ul>
+        <h4>Javascript Files - Interacting Components</h4>
+        <ul>
+          <li>Garage door opener</li>
+          <li>Remote</li>
+          <li>Lights</li>
+          <li>TV Remote</li>
+        </ul>
+        <h4>Web Tools - Assist in Building/Repairing Other Components
+        </h4>
+        <ul>
+          <li>Screw Driver to Use to Repair</li>
+          <li>Lawn Mower to Mow the Lawn</li>
+          <li>Saw to Cut Wood for Fireplace</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Hidden Elements</h3>
+        <p>
+          Not all elements are visible in the displayed browser, such as meta tags, styles, and script, i.e., &lt;head&gt;, CSS, javascript.
+        </p>
+      </div>
+      <h3>Structure to Code By</h3>
+      <p>
+        When speaking of HTML structure, I like to think of the structure as a hierarchy of code, but it can be referred to as the "Tree-Like Structure" to follow when writing code. By adhering to the tree-like structure, the organization of code helps with understanding how deep/nested elements are within the HTML code. 
+      </p>
+      <img src="http://watershedcreative.com/naked/img/dom-tree.png" alt="HTML Tree-Structure">
+      <div>
+        <h3>Mapping the # of Boxes on a Web-page</h3>
+        <p>
+          When determining the layout of a web-page, it is important to determine how it will be divided - into boxes.
+        </p>
+      </div>
+      <img src="http://i.imgur.com/UhsvXoC.png?1" alt="Webpage boxes">
+      <div>
+        <p>In the picture above, she has divided the web-page into seven boxes, however, there are actually eight boxes because the web-page makes up one box by itself. By determining the amount of boxes, you get a firm understanding of how you want the website to operate and look. The sections can be divided by using the "&lt;div&gt;" tag.</p>
+      </div>
+    </div>
+    <!-- Beginning of Section Three -->
+    <div class="even_lesson">
+      <h2>Lesson Three: Adding CSS Style to HTML Structure</h2>
+      <p>
+        CSS (Cascading Style Sheet) is what gives HTML the "style" to the elements within the code by eliminating repetition. There are a few methods of adding CSS to the HTML document. In addition, CSS is a search replacement tool that allows you to identify a class or tag of an element chosen to style and change that element according to preference. With great power, comes great responsibility - there are rules to this power.
+      </p>
+      <h3>Three Methods to Placing the  Style Sheet</h3>
+      <ol>
+        <li><span class="italics">CSS in Separate File</span>: creating a separate style_sheet.css is the ideal way of controlling CSS. This method allows you to stay more organized and is the ideal method of placing CSS.</li>
+        <li><span class="italics">CSS in the &lt;head&gt; of the HTML</span>: This method is good for small projects. The CSS is enclosed in the &lt;style&gt; tag nested within the &lt;head&gt; element.</li>
+        <li><span class="italics">In-line Style</span>: This method is generally not recommended because it leads to a lot of repeated code. For further reading on the <a href="http://stackoverflow.com/questions/2612483/whats-so-bad-about-in-line-css">debate of in-line CSS</a>, Stackoverflow gives an excellent explanation of the questions and the opinions of other Devs.</li>
+      </ol>
+      <h3>Rules of Cascading</h3>
+      <ul>
+        <li><span class="italics">Cascading</span>: defined as rules to be applied not only to the elements they directly match, but also to all  those elements' child elements. However, if a child element has multiple overlapping rules defined for it, the more specific rules takes effect.</li>
+        <li><span class="italics">Inheritance</span>:
+          <ul>
+            <li>relies on the ancestor - descendant relationship. It applies all changes to the specific element and all it's descendants.
+            </li>
+            <li>Adheres to the document tree/heirarchy of XHTML, based off of nesting</li>
+            <li>Enhances faster loading speed of web-pages by the user.</li>
+            <li>Helps the client to save money on bandwidth and Dev costs.</li>
+            <li>A few examples of inheritance:</li><br>
+            <center>
+              <table>
+                <tr>
+                  <th><b>Attribute</b></th>
+                  <th><b>Inherited</b></th>
+                  <th><b>Not Inherited</b></th>
+                </tr>
+                <tr>
+                  <td><b>Color</b></td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><b>Font</b></td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><b>Text - Align/Indent</b></td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Text - Transform</td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Letter - Spacing</td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Line - Height</td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>List - Style</td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Visibility</td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>White - Space</td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Word Spacing</td>
+                  <td><center>X</center></td>
+                  <td></td>
+                </tr>
+        <!-- End of Inheritance List -->
+                <tr>
+                  <td><b>Background</b></td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td><b>Border</b></td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Display</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Float and Clear</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Height and Width</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Margin</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Min/Max Height/Width</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Outline</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Overflow</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Padding</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Position</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Text - Decoration</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Vertical - Align</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+                <tr>
+                  <td>Z - Index</td>
+                  <td></td>
+                  <td><center>X</center></td>
+                </tr>
+            <!-- End of Not-Inherited List -->
+              </table>
+            </center>
+          </ul>
+        </li>
+      </ul>
+      <h3>Understanding Selectors</h3>
+      <p>
+        Not that we understand the methods and rules of CSS, how do the elements get changed by the CSS. CSS has the ability to "select" all elements of the same kind and change the value by calling a specific attribute. As a result, you are making a new set of "rules" within your main.css file.
+      </p>
+      <h4>CSS control over HTML</h4>
+      <ul>
+        <li>h1 {<br>background-color: blue;<br>color: white;<br>}
+        </li>
+          <ul>
+            <li>h1 = Selector</li>
+            <li>background-color = attribute</li>
+            <li>blue = value</li>
+            <li>{ } = everything within the brackets is now a rule</li>
+          </ul>
+      </ul>
+      <p>
+        So what is this actually doing to the HTML document? Basically, the CSS is selecting all elements within the &lt;h1&gt; tag and telling them they are now going to be with a blue background and with white text.
+      </p>
+      <h4>Selecting by Class</h4>
+      <p>
+        Now that we know how to change the style via CSS page, we can also do this by using class selectors, i.e., &lt;div&gt;.
+      </p>
+      <ul>
+        <li>&lt;div class="lesson_one"&gt;Content for Div&lt;/div&gt;</li>
+        <li>.lesson_one {<br>background-color: blue;<br>color: white;<br>}</li>
+      </ul>
+      <p>
+        In the above example, we identified the class as "lesson_one" in the main.html file and within the main.css file we styled that class with a background of blue and a text color of white.
+      </p>
+      <h4>Selecting by ID</h4>
+      <p>
+        Another form of selection is by selecting by an ID selector. ID selectors are the most powerful type of selector in terms of CSS specificity. As a result, ID selectors beat out other types of selectors and the styles defined within, therefore can't be altered. On the other hand, having lower-specificity selectors that are easier to override is a plus, i.e., class selectors.
+      </p>
+      <ul>
+        <li>CSS Code:
+          <ul>
+            <li>
+              #firstname {<br>background-color: yellow;<br>
+              color: white;<br>
+              }<br>         
+              #future_class {<br>background-color: black;<br>
+              color: white;<br>
+              }
+            </li>
+          </ul>
+          </li>
+        <li>HTML Code:
+          <ul>
+            <li>
+              &lt;p id="firstname"&gt;My name is Kevin!&lt;/p&gt;<br>
+              &lt;p id="future_class"&gt;I want to learn Data Science!&lt;/p&gt;
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Boxes, Boxes, and more Boxes!</h3>
+      <h4>Box Positioning</h4>
+      <p>
+        If you were to open the developer tools in either Firefox, Google Chromes, or Internet Explorer, you will notice the web-page is made up of boxes, which are containers or divs. These divs or block elements take up the entire width of the page. However, by adding the display: flex; rule to the CSS to the corresponding area will allow divs be next to one another.
+      </p>
+      <h4>Resizing Boxes</h4>
+      <p>
+        Resizing boxes seemed to be a pretty fun and exploring part of learning how CSS and HTML interact with one another. In order to change the way a box is visible on the HTML document, there are four different components to adjust the size of the box: margin, border, padding, and content.
+      </p>
+      <img src="http://i.imgur.com/Pkzd90x.png" alt="Box Model">
+      <h4>Adding an Image</h4>
+      <p>
+        Adding an image to your website not only enhances the overall layout, but allows the ability to portray your message in another form of context.
+      </p>
+      <p>
+        Remember to always include an alt="Box Model" to show if the image is not displayed.
+      </p>
+      <ul>HTML for an img
+        <li>&lt;img src="http://i.imgur.com/Pkzd90x.png" alt="Box Model"&gt;</li>
+      </ul>
+      <h3>CODE, TEST, REFINE</h3>
+      <p>
+        As a complete beginner to learning how HTML and CSS work, it is important to follow a set of guidelines to stay focused and organized.
+      </p>
+      <h4>CODE</h4>
+        <ul>
+          <li>Deciding what the overall design mock will be (boxing), deciding the structure.</li>
+          <li>Writing the code for HTML and CSS.</li>
+          <li>CSS - make the style changes beginning with biggest to smallest</li>
+        </ul>
+      <h4>TEST</h4>
+        <ul>
+          <li>Testing the code on other browsers.</li>
+          <li>Is the color and text correct? Are the boxes in the correct order/layout?</li>
+        </ul>
+      <h4>REFINE</h4>
+        <ul>
+          <li>Fix all desired changes</li>
+          <li>Continue testing and refining till the web-page looks like the mock-up.</li>
+        </ul>
+      <h4>Developer Tools</h4>
+      <p>
+        Developer tools, that is all I can say, developer tools. It is one of the best tools in the arsenal of a developer. Why? You can look at each element and tweak it to the desired look without changing any code on your original document. No more saving the code to the HTML document and refreshing your browser. When you are done, you can make the desired changes to your original document.
+      </p>
+      <p>
+        With developer tools, you are able to:
+      </p>
+      <ul>
+        <li>Change or add elements</li>
+        <li>Change CSS, i.e., color, text, etc.</li>
+        <li>Rearrange the layout of the document.</li>
+        <li>Resize boxes and positioning</li>
+      </ul>
+      <h3>Verifying HTML and CSS</h3>
+      <p>
+        Verifying the HTML and CSS can be part of the testing and refining process. You will need to visit <a href="http://validator.w3.org/#validate_by_input">W3C Markup Validation Service</a> to check your HTML. After verifying your HTML, you will also have to verify your CSS at <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS Validation Service</a>. If there are any errors, those errors will be displayed and with helpful links and instructions on how to correct the code so it passes verification.
+      </p>
+      <img src="http://i.imgur.com/UdJR7IQ.png" alt="Verify HTML and CSS">
+    </div>
+    <div class="footer">
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" /></a>
+      </p>
+      <p>designed by Kevin Phillips</p>
+    </div>
+  </body>
+</html>
