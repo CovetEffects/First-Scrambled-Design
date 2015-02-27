@@ -8,6 +8,18 @@ body {
 	background-color:#003366;
 }
 
+#header_image {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+}
+
+.stretch {
+	width: 100%;
+	height: 100%;
+}
+
 .wrapper {
 	width: 80%;
 	max-width: 35em;
