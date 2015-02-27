@@ -478,12 +478,10 @@
     </div>
     <div class="container_one">
       <div class="wrapper">
-        <h2>Introduction to "Serious Programming</h2>
+        <h2>Introduction to "Serious Programming"</h2>
         <div class="lesson_content">
           <div>
             <h3>Programming</h3>
-          </div>
-          <div>
             <p>
               <span class="bold italics">Programming</span> is the core of computer science.
             </p>
@@ -502,6 +500,9 @@
             <p>
               A <span class="bold italics">Python Interpreter</span>, or any type of interpreter, is a program that reads Python programs and carries out their instructions; you need it before you can do any Python programming.
             </p>
+          </div>
+          <div>
+            <h4>Backus-Naur Form</h4>
             <p>
               When comparing the <span class="bold italics">English Grammar</span> to a programming language, the programming language adheres to a strict grammatical structure. In English, even if a phrase is written or spoken incorrectly, it can still be understood with the help of context or other cues. On the other hand, in a programming language like Python, the code must match the language grammar exactly. The Python interpreter has no idea what to do with input that is not in the Python language, so it produces an error.
             </p>
@@ -545,6 +546,52 @@
                 <td>Noun &rarr; <span class="bold">Cookies</span></td>
               </tr>
             </table>
+          </div>
+          <div>
+            <h3>Python Expressions</h3>
+            <p>
+              An expression is something that has a value. Expressions are not to be confused with equations. Below are some examples of expressions in Python:
+            </p>
+            <ul class="python_expressions">
+              <li>3</li>
+              <li>1 + 1</li>
+              <li>7 * 7 * 24 * 60</li>
+            </ul>
+            <div>
+              <h4>Understanding Expressions</h4>
+              <p>
+                Expression &rarr; Expression Operator Expression
+              </p>
+              <p>
+                The <span class="italics">Expression</span> non-terminal that appears on the left side can be replaced by an <span class="italics">Expression</span>, followed by an <span class="italics">Operator</span>, followed by another <span class="italics">Expression</span>. For example, 1 + 1 is an <span class="italics">Expression</span> <span class="italics">Operator</span> <span class="italics">Expression</span>.
+              </p>
+              <p>
+                Examples of Python grammar rules for arithmetic expressions:
+              </p>
+              <table>
+                <tr>
+                  <th>Python Grammar Rules</th>
+                </tr>
+                <tr>
+                  <td>Expression &rarr; Expression Operator Expression</td>
+                </tr>
+                <tr>
+                  <td>Expression &rarr; Number</td>
+                </tr>
+                <tr>
+                  <td>Operator &rarr; &plus;</td>
+                </tr>
+                <tr>
+                  <td>Operator &rarr; &times;</td>
+                </tr>
+                <tr>
+                  <td>Number &rarr; 0, 1, 2,...</td>
+                </tr>
+                <tr>
+                  <td>Expression &rarr; (Expression)</td>
+                </tr>
+              </table>
+            </div>
           </div>
         </div>
       </div>
