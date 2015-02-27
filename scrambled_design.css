@@ -36,7 +36,12 @@ a:visited {
 }
 
 .bold {
-	font-weight: bold;
+	font-weight: 900;
+}
+
+.bold.italics {
+	font-weight: 900;
+	font-style: italic;
 }
 
 .fixed_nav_bar {
@@ -55,7 +60,7 @@ h1 {
 	color: #FFFFFF;
 	background-color: #003366;
 	font-size: 30px;
-	text-shadow: 3px 3px 3px #aaa;
+/*	text-shadow: 3px 3px 3px #aaa;*/
 	margin: 0;
 }
 
