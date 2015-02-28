@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
-	background-color:#003366;
+	background-color: #CCCCCC;
 }
 
 #header_image {
@@ -56,6 +56,8 @@ a:visited {
 	font-style: italic;
 }
 
+/* fixed_nav_bar will be changed at a later time. When I have time, I will have to research how to make the nav bar interact the way I envisioned
+
 .fixed_nav_bar {
 	position: fixed;
 	top: 0;
@@ -72,9 +74,10 @@ h1 {
 	color: #FFFFFF;
 	background-color: #003366;
 	font-size: 30px;
-/*	text-shadow: 3px 3px 3px #aaa;*/
+	text-shadow: 3px 3px 3px #aaa;
 	margin: 0;
 }
+*/
 
 h2 {
 	display: flex;
@@ -88,7 +91,7 @@ h4 {
 	color: 	#B7521E;
 }
 
-.container_one {
+.Intro_Content {
 	background-color:#CCCCCC;
 	padding-left: 20%;
 	padding-right: 20%;
@@ -96,7 +99,15 @@ h4 {
 	padding-bottom: 15px;
 }
 
-.container_two {
+table#table_links th {
+	background-color: #CCCCCC;
+	padding-top: 2em;
+	border: 0;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+.HTML_Content {
 	background-color:#CCCC99;
 	padding-left: 20%;
 	padding-right: 20%;
@@ -104,6 +115,39 @@ h4 {
 	padding-bottom: 15px;
 }
 
+.HTML_Structure {
+	background-color:#CCCCCC;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.CSS_Content {
+	background-color:#CCCC99;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.Programming_Content {
+	background-color:#CCCCCC;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*
+.container_two {
+	background-color:#CCCC99;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+*/
 img {
 	display: block;
 	margin-left: auto;

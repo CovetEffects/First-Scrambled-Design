@@ -8,11 +8,12 @@
     
   </head>
   <body>
-    <nav class="fixed_nav_bar"></nav>
+    <!-- changing nav bar in the future to be used with the "table_links" below -->
+    <!-- <nav class="fixed_nav_bar"></nav> -->
     <div id="header_image">
       <img src="http://i.imgur.com/OfBdUZC.png?1" class="stretch" alt="awesome banner!">
     </div>
-    <div class="container_one">
+    <div class="Intro_Content">
       <div class="wrapper">
         <p>
           What is Scrambled Design? In <span class="italics">my mind</span>, when learning anything new in our lives, it sometimes feels like our minds are scrambled at first, a sense of new information can be overwhelming. As time goes on, what we are learning eventually turns into an enjoyable experience. Scrambling the eggs in the beginning eventually becomes a delicious meal.
@@ -25,11 +26,38 @@
         </span>
       </div>
     </div>
-<!-- I'm separating each section by <div>'s to keep things organized on the web-page. -->
+    <div>
+      <table id="table_links">
+        <tr>
+          <th>
+            <a href="#HTML-1">
+              <img src="http://i.imgur.com/ozwP9nT.png?1" alt="HTML Logo">
+            </a>
+          </th>
+          <th>
+            <a href="#HTML-Structure">
+              <img src="http://i.imgur.com/i10uj0M.png?1" alt="HTML Structure">
+            </a>
+          </th>
+          <th>
+            <a href="#CSS-1">
+              <img src="http://i.imgur.com/yoSLUaN.png?1" alt="CSS Logo">
+            </a>
+          </th>
+          <th>
+            <a href="#Programming-Python">
+              <img src="http://i.imgur.com/sxqt6hU.png?1" alt="Python Logo">
+            </a>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <!-- I'm separating each section by <div>'s to keep things organized on the web-page. -->
     <!-- Beginning of Section One -->
-    <div class="container_two">
+    <div class="HTML_Content" id="HTML-1">
       <div class="wrapper">
         <h2>Lesson One: The Basics of the Web and HTML</h2>
+        <!-- class="lesson_content" will be used at a later time if I decide to change the style of the div -->
         <div class="lesson_content">
           <div>
             <h3>What is the World Wide Web? (quick facts)</h3>
@@ -63,7 +91,7 @@
       </div>
     </div>
     <!-- Beginning of Section Two -->
-    <div class="container_one">
+    <div class="HTML_Structure" id="HTML-Structure">
       <div class="wrapper">
         <h2>Lesson Two: Structure and Web Browser Interpretation</h2>
         <div class="lesson_content">
@@ -135,7 +163,7 @@
       </div>
     </div>
     <!-- Beginning of Section Three -->
-    <div class="container_two">
+    <div class="CSS_Content" id="CSS-1">
       <div class="wrapper">
         <h2>Lesson Three: Adding CSS Style to HTML Structure</h2>
         <div class="lesson_content">
@@ -476,7 +504,8 @@
         </div>
       </div>
     </div>
-    <div class="container_one">
+    <!-- Beginning of Programming Section -->
+    <div class="Programming_Content" id="Programming-Python">
       <div class="wrapper">
         <h2>Introduction to "Serious Programming"</h2>
         <div class="lesson_content">
@@ -596,6 +625,7 @@
         </div>
       </div>
     </div>
+    <!-- Footer layout will be changed at a later time to go with overall layout -->
     <div class="footer">
       <div>
         <p>
